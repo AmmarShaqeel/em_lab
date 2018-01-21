@@ -20,7 +20,7 @@ Et=Et.*conj(Et)/(max(Et)^2);
 
 %
 y=x*100;            % converting to cm
-Et_approx = (4/(D^2))*(cos((k*d*x)/2*D)).^2;
+Et_approx = (4/(D^2))*(cos((k*d*x)/(2*D))).^2;
 Et_approx = Et_approx./max(Et_approx);
 
 plot(y,abs(Et))
