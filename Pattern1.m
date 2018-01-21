@@ -1,4 +1,4 @@
-% Script to model the interference between 2 point sources
+    % Script to model the interference between 2 point sources
 % separated by a distance d and on a line parallel to a screen
 % at a distance D.
 % variables names as in Fig. 1 in the lab. script
