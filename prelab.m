@@ -34,6 +34,7 @@ title('{\bfInterference pattern}','FontSize',14)
 xlabel('{\bfDistance from the centre of screen (in cm)}')
 ylabel('{\bfRelative Intensity}')
 line([0 0],[0 1.2])
+legend('Actual value', 'Approximation');
 % line([-0.5 0.5],[1 1],'linestyle',':')
 % text(-0.48, 1.1,'drawn by {\bf <...insert your name here...> }')
 
