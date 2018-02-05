@@ -7,11 +7,10 @@ theta = 0:0.01:2*pi;
 
 for i = 1:length(d);
 
-    rho = 2*cos(k*(d(i)/2)* cos(theta) +phi(i)/2);
+    rho = abs(2*cos(k*d(i)*cos(theta)*1/2 + phi(i)/2));
 
     figure(i);
     polar(theta, rho);
     polarplot(theta,rho);
-    title(['d =' d(i)*lambda 'phi =' phi(i)]);
     
 end
